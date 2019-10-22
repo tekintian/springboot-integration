@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3357/spring_security?useSSL=false
+    username: demo
+    password: demodemo
+    driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    serialization:
+      indent-output: true
+logging:
+  level:
+    org.springframework.data: DEBUG
