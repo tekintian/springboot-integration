@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/springboot-deploy/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-task/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_provider-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo_consumer-user/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo_provider-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_provider-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_consumer-user/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_eureka-server/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,18 @@
+#for dubbo 2.x
+dubbo:
+  application:
+    name: springboot-dubbo_provider-ticket
+    id: springboot-dubbo_provider-ticket
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    group: springboot
+    timeout: 5000
+  scan:
+    base-packages: cn.tekin.dubbo.ticket.service
+    #发布包，消费者端的报名和类名必须完全一致，否则无法调用
+  provider:
+    threadpool: fixed
+    threads: 10
+  protocol:
+    name: dubbo
+    port: -1

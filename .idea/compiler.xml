@@ -7,30 +7,47 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-cache" />
+        <module name="springboot-dubbo_consumer-user" />
         <module name="springboot-actuator" />
+        <module name="springcloud_eureka-server" />
         <module name="springboot-elastic" />
         <module name="springboot-rabbitmq" />
         <module name="springboot-security" />
+        <module name="springcloud_provider-ticket" />
+        <module name="springcloud_consumer-user" />
+        <module name="springboot-dubbo_provider-ticket" />
         <module name="springboot-task" />
         <module name="springboot-deploy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbo_provider-ticket" target="1.8" />
       <module name="springboot-actuator" target="1.8" />
       <module name="springboot-cache" target="1.8" />
       <module name="springboot-deploy" target="1.8" />
+      <module name="springboot-dubbo_consumer-user" target="1.8" />
+      <module name="springboot-dubbo_provider-ticket" target="1.8" />
       <module name="springboot-elastic" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-security" target="1.8" />
       <module name="springboot-task" target="1.8" />
+      <module name="springcloud_consumer-user" target="1.8" />
+      <module name="springcloud_eureka-server" target="1.8" />
+      <module name="springcloud_provider-ticket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo_provider-ticket" options="-parameters" />
       <module name="springboot-cache" options="-parameters" />
+      <module name="springboot-dubbo_consumer-user" options="" />
+      <module name="springboot-dubbo_provider-ticket" options="" />
       <module name="springboot-elastic" options="" />
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-security" options="" />
+      <module name="springcloud_consumer-user" options="-parameters" />
+      <module name="springcloud_eureka-server" options="-parameters" />
+      <module name="springcloud_provider-ticket" options="-parameters" />
     </option>
   </component>
 </project>

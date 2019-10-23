@@ -5,10 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" filepath="$PROJECT_DIR$/springboot-actuator/springboot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-cache/springboot-cache.iml" filepath="$PROJECT_DIR$/springboot-cache/springboot-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-deploy/springboot-deploy.iml" filepath="$PROJECT_DIR$/springboot-deploy/springboot-deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo_consumer-user/springboot-dubbo_consumer-user.iml" filepath="$PROJECT_DIR$/springboot-dubbo_consumer-user/springboot-dubbo_consumer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo_provider-ticket/springboot-dubbo_provider-ticket.iml" filepath="$PROJECT_DIR$/springboot-dubbo_provider-ticket/springboot-dubbo_provider-ticket.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elastic/springboot-elastic.iml" filepath="$PROJECT_DIR$/springboot-elastic/springboot-elastic.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-task/springboot-task.iml" filepath="$PROJECT_DIR$/springboot-task/springboot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_consumer-user/springcloud_consumer-user.iml" filepath="$PROJECT_DIR$/springcloud_consumer-user/springcloud_consumer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_eureka-server/springcloud_eureka-server.iml" filepath="$PROJECT_DIR$/springcloud_eureka-server/springcloud_eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_provider-ticket/springcloud_provider-ticket.iml" filepath="$PROJECT_DIR$/springcloud_provider-ticket/springcloud_provider-ticket.iml" />
     </modules>
   </component>
 </project>
