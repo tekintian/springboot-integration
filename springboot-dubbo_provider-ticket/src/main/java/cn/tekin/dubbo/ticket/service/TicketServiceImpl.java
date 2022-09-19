@@ -14,4 +14,9 @@ public class TicketServiceImpl implements TicketService {
     public String getTicket() {
         return "恭喜，你买到票了";
     }
+
+    @Override
+    public String getUser() {
+        return "User List";
+    }
 }

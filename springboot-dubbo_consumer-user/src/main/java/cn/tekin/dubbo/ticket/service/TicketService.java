@@ -6,4 +6,5 @@ package cn.tekin.dubbo.ticket.service;
  */
 public interface TicketService {
     public String getTicket();
+    public String getUser();
 }

@@ -13,8 +13,10 @@ import org.springframework.stereotype.Service;
 public class UserService {
     @Reference
     TicketService ticketService;
+
     public void hello(){
+
         String ticket = ticketService.getTicket();
-        System.out.println("Hello "+ticket);
+        System.out.println("Hello "+ticket + " User:"+ticketService.getUser());
     }
 }
